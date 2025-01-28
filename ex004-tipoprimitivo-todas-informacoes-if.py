@@ -13,13 +13,38 @@ print('Está Capitalizada?', a.istitle()) #Começa com uma letra maiúscula
 
 #a é um objeto e todo objeto string tem um método
 
+#dica1:
+'''
+, int é um dos tipos primitivos. Aqui estão os outros tipos primitivos em Python:
+
+float: Números de ponto flutuante (números decimais). Exemplo: 3.14
+
+str: Cadeias de caracteres (strings). Exemplo: "Hello, World!"
+
+bool: Valores booleanos. Exemplo: True e False
+
+NoneType: Representa a ausência de valor ou um valor nulo. Exemplo: None
+'''
+
+#dica2"
+'''
+istitle() é uma das várias funções de string em Python. 
+Aqui estão algumas outras funções úteis de string
+
+var.is..."escreva o nome da função no lugar de reticências"
+upper(): Converte todos os caracteres da string para maiúsculas.
+lower(): Converte todos os caracteres da string para minúsculas.
+capitalize(): Converte o primeiro caractere da string para maiúscula e o resto para minúsculas.
+title(): Converte o primeiro caractere de cada palavra para maiúscula.
+strip(): Remove espaços em branco no início e no fim da string.
+split(): Divide a string em uma lista com base em um separador.
+join(): Une elementos de uma lista em uma string com um separador especificado.
+replace(): Substitui partes da string por outra substring.
+'''
 
 
 
-
-
-
-
+#Código diferente mesmo resultado
 '''
 # Solicita ao usuário que insira um valor
 valor = input("Digite algo: ")
