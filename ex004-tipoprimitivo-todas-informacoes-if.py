@@ -1,6 +1,26 @@
 #faça um programa  em  python que leia algo pelo teclado e mostre na tela o
 # seu tipo primitivo e todas as informações possíveis sobre ele. use funções "is"
+#função is testa os valores ex ", var.isalnum" teste islanum "é alphanumérico'
+a = input('Digite algo:')
+print('O tipo primitivo desse valor é', type(a))
+print('Só tem espaços?', a.isspace())
+print('É um número?', a.isnumeric())
+print('E alfabetico?', a.isalpha())
+print('É alphanumérico?', a.isalnum()) #adevilson123
+print('Está em MAIÚSCULAS?', a.isupper())
+print('Está em minúscula?', a.islower())
+print('Está Capitalizada?', a.istitle()) #Começa com uma letra maiúscula
 
+#a é um objeto e todo objeto string tem um método
+
+
+
+
+
+
+
+
+'''
 # Solicita ao usuário que insira um valor
 valor = input("Digite algo: ")
 
@@ -66,7 +86,7 @@ def verificar_valor(valor):
 
 # Chama a função para verificar o valor
 verificar_valor(valor)
-
+'''
 
 
 '''
