@@ -71,8 +71,16 @@ print('A soma é {}, \n o produto é {} e a \n divisão é {:.3f}'.format(s, m, 
 '''
 #-----------------------------------------------------------------------------------------------------------------------
 #Desenvolva um program que leia as duas notas de um aluno, calcúle e mostre a sua média
-nota1 = float(input('Digite Sua Nota'))
-nota2 = float(input('Digite Outra Nota'))
+'''
+nota1 = float(input('Digite Sua Nota:'))
+nota2 = float(input('Digite Outra Nota:'))
 resultado = nota1 + nota2
 media = resultado / 2
 print("total de pontos {} sua Média é de {} Pontos".format(resultado,media))
+'''
+#Arendondo a nota {:.1}
+n1 = float(input("Digite sua primeira nota:"))
+n2 = float(input("Digite sua segunda nota:"))
+média = (n1 + n2) / 2 # se não colocar os parenteses o codigo vai rodar mas o resultado vai ser errado, pois ele tem que usar a ordem de precedencia
+print('A média entre {:.1f} e {:.1f} é igual a {:.1f}'.format(n1, n2, média)) #pytohon aceita acentos na var
+
