@@ -25,3 +25,7 @@ print(f"Primeiro nome: {nome[0]}")                #nome[0] pega o primeiro eleme
 print(f"Último nome: {nome[-1]}")                 #nome[-1] pega o último elemento da lista
 #fonte:ghc
 '''
+
+
+#identação é a forma como o python identifica os blocos de código,
+# é importante manter a identação correta para que o código funcione corretamente
